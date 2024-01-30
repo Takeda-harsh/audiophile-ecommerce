@@ -1,0 +1,61 @@
+.item-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.item-category.headphones img {
+    position: absolute;
+    top: 625px;
+    right: 0;
+  bottom: 0;
+  left: 38%;
+  
+}
+.item-category.speakers img {
+    position: absolute;
+    top: 880px;
+    right: 0;
+  bottom: 0;
+  left: 38%;
+  
+}
+.item-category.earphones img {
+    position: absolute;
+    top: 1120px;
+    right: 0;
+  bottom: 0;
+  left: 35%;
+  
+}
+
+.item-category div{
+    width: 330px;
+    height: 160px;
+    background-color: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    
+}
+.item-category div p{
+    display: flex;
+    align-items: center;
+    color:  #989494ea;
+    
+}
+.item-category div span{
+    display: flex;
+    align-items: center;
+    color:  #D87D4A;
+    margin-left: 10px;
+}
+.item-category div h5{
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 50px;
+    margin-bottom: 17px;
+}

@@ -1,0 +1,55 @@
+.hero-div {
+    height: 500px;
+    background-image: url(../resources/assets/home/mobile/image-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    justify-content: space-evenly;
+}
+.hero-div div{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    justify-content: space-evenly;
+}
+.hero-div h5{
+  font-size: 14px;
+  letter-spacing: 10px;
+  font-weight: 100;
+  color:  #e1e1e19f;
+}
+.hero-div h2{
+  font-size: 36px;
+  letter-spacing: 5px;
+  text-align: center;
+  font-weight: bold;
+  color:  white;
+  margin-top: 16px;
+}
+.hero-div p{
+  font-size: 15px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 100;
+  color:  #f6f4f4d0;
+  line-height: 25px;
+  width: 320px;
+}
+.hero-div button{
+  width: 160px;
+  height: 48px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background-color: #D87D4A;
+  border: none;
+  margin-top: 20px;
+}
