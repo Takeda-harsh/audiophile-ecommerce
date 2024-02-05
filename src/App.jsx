@@ -8,6 +8,7 @@ import Mission from './components/Mission';
 import Footer from './components/Footer';
 import Home from './pages/home';
 import HeadphonesPage from './pages/headphonespage';
+import SpeakersPage from './pages/speakerspage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/headphonespage" element={<HeadphonesPage />} />
+          <Route path="/speakerspage" element={<SpeakersPage />} />
         </Routes>
       </Router>
       <Mission />

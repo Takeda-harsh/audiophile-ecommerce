@@ -1,0 +1,86 @@
+.headertxt {
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-model-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 724px; */
+}
+
+.headertxt h1{
+font-size: 28px;
+letter-spacing: 2px;
+font-weight: 700;
+}
+
+.modelimg3 {
+background-image: url('../resources/assets/product-zx9-speaker/mobile/image-product.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;    
+width: 327px;
+height: 352px;
+}
+.modelimg4 {
+background-image: url('../resources/assets/product-zx7-speaker/mobile/image-product.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;    
+width: 327px;
+height: 352px;
+}
+
+
+.speakermodels {
+    margin-top: 64px;
+}
+
+.model-desc {
+    margin-top: 32px;
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.model-desc h4{
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 10px;
+    color: #D87D4A;
+    margin-bottom: 24px;
+    
+}
+.model-desc h1{
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color:black;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+.model-desc p{
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    color: #7d7b7b;
+    margin-bottom: 24px;
+}
+.model-desc button{
+    width: 160px;
+    height: 48px;
+    background-color: #D87D4A;
+    color: white;
+    border: none;
+}
+
