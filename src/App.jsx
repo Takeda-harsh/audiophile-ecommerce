@@ -9,6 +9,8 @@ import Footer from './components/Footer';
 import Home from './pages/home';
 import HeadphonesPage from './pages/headphonespage';
 import SpeakersPage from './pages/speakerspage';
+import EarphonesPage from './pages/earphonespage';
+import XX99Mark from './pages/products/headphones/xx99mark';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/headphonespage" element={<HeadphonesPage />} />
           <Route path="/speakerspage" element={<SpeakersPage />} />
+          <Route path="/earphonespage" element={<EarphonesPage />} />
+          <Route path="/xx99mark" element={<XX99Mark />} />
         </Routes>
       </Router>
       <Mission />

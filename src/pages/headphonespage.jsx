@@ -19,7 +19,10 @@ const Headphones = () => {
           <h4>NEW PRODUCT</h4>
           <h1>XX99 Mark II Headphones</h1>
           <p>The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.</p>
+          <Link to="/xx99mark">
           <button>SEE PRODUCT</button>
+          </Link>
+          
         </div>
             </div>
 
