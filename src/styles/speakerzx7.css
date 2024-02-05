@@ -1,0 +1,39 @@
+.zx7-div {
+    display: flex;
+    height: 320px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 54px;
+  
+   
+}
+.zx7-div div{
+    width: 327px;
+   height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../resources/assets/home/mobile/image-speaker-zx7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    
+}
+.zx7-div div h1{
+   font-size: 28px;
+   font-weight: 700;
+   margin-bottom: 32px;
+   margin-left: 25px;
+}
+.zx7-div div button{
+   font-size: 13px;
+   font-weight: 700;
+   width: 160px;
+   height: 48px;
+   border: 2px solid black;
+   margin-left: 25px;
+   background-color: #DADADA;
+}

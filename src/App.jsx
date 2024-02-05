@@ -2,8 +2,12 @@
 import './App.css'
 import NavBar from './components/NavBar'
 import SpeakerZX9 from './components/SpeakerZX9'
+import SpeakerZX7 from './components/SpeakerZX7'
 import Category from './components/category'
 import Hero from './components/hero'
+import EarphonesYX1 from './components/EarphonesYX1'
+import Mission from './components/Mission'
+import Footer from './components/Footer'
 
 function App() {
   
@@ -29,6 +33,10 @@ function App() {
       />
 
       <SpeakerZX9/>
+      <SpeakerZX7/>
+      <EarphonesYX1/>
+      <Mission/>
+      <Footer/>
       
     </>
   )

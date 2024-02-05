@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
   
    
     
@@ -17,17 +18,48 @@
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    background-image: url(../resources/assets/mobile/Group4.png);
+    background-image: url(../resources/assets/home/mobile/Group4.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #D87D4A;
+    color: white;
     border-radius: 8px;
+    padding-top: 50px;
    
     
 }
 .zx9-div img{
     width: 172px;
     height: 207px;
+    margin-bottom: 32px;
 
+}
+.zx9-div h1{
+   font-size: 36px;
+   font-weight: 700;
+   width: 200px;
+   text-align: center;
+   margin-bottom: 24px;
+}
+.zx9-div p{
+   font-size: 15px;
+   width: 240px;
+   line-height: 25px;
+   text-align: center;
+   font-weight: 200;
+   margin-bottom: 24px;
+}
+.zx9-div button{
+   font-size: 13px;
+   font-weight: bold;
+   width: 160px;
+   height: 48px;
+   letter-spacing: 1px;
+   background-color: black;
+   color: white;
+   border: none;
+   text-align: center;
+   font-weight: 200;
+   margin-bottom: 24px;
 }
