@@ -1,27 +1,33 @@
-import '../../../styles/zx9.css';
+import '../../../styles/yx1.css';
 import Category from '../../../components/category';
 import { Link } from 'react-router-dom';
-const zx9 = () => {
+// import { useHistory } from 'react-router-dom';
+const Yx1 = () => {
+    // const history = useHistory();
+    
+    // const goBack = () => {
+    //     history.goBack();
+    //   };
   return (
     <>
-     <Link to="/headphonespage">
-     <div className='back'>Go Back</div>
-     </Link>
+{/*      
+     <div className='back' onClick={goBack}>Go Back</div> */}
+     
     
     <div className="xx99mark-details">
         
        <div className='headphonemodels'>
-        <div className='zx9img'></div>
+        <div className='yx1img'></div>
 
         <div className='x99-model-desc'>
           <h4>NEW PRODUCT</h4>
-          <h1>ZX9
-SPEAKER</h1>
-          <p>Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.</p>
+          <h1>YX1 WIRELESS
+EARPHONES</h1>
+          <p>Tailor your listening experience with bespoke dynamic drivers from the new YX1 Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.</p>
         </div>
             </div>
         <div className='price'>
-            <p>$ 4,500</p>
+            <p>$ 599</p>
             <div className='quantity-cart'>
                 <div className='qty'><span className='minus'>-</span>1 <span className='add'>+</span></div> <button>ADD TO CART</button>
             </div>
@@ -30,27 +36,27 @@ SPEAKER</h1>
         <div className='description'>
             <h3>FEATURES</h3>
             <p>
-            Connect via Bluetooth or nearly any wired source. This speaker features optical, digital coaxial, USB Type-B, stereo RCA, and stereo XLR inputs, allowing you to have up to five wired source devices connected for easy switching. Improved bluetooth technology offers near lossless audio quality at up to 328ft (100m).
+            Experience unrivalled stereo sound thanks to innovative acoustic technology. With improved ergonomics designed for full day wearing, these revolutionary earphones have been finely crafted to provide you with the perfect fit, delivering complete comfort all day long while enjoying exceptional noise isolation and truly immersive sound
              <br/> <br/>
 
-             Discover clear, more natural sounding highs than the competition with ZX9’s signature planar diaphragm tweeter. Equally important is its powerful room-shaking bass courtesy of a 6.5” aluminum alloy bass unit. You’ll be able to enjoy equal sound quality whether in a large room or small den. Furthermore, you will experience new sensations from old songs since it can respond to even the subtle waveforms.
+             The YX1 Wireless Earphones features customizable controls for volume, music, calls, and voice assistants built into both earbuds. The new 7-hour battery life can be extended up to 28 hours with the charging case, giving you uninterrupted play time. Exquisite craftsmanship with a splash resistant design now available in an all new white and grey color scheme as well as the popular classic black.
             </p>
 
             <div>
                 <h3>IN THE BOX</h3>
                 <div className='box-items'> 
-                    <p><span>2x</span>Speaker Unit</p>
-                    <p><span>2x</span>Speaker Cloth Panel</p>
+                    <p><span>2x</span>Earphone Unit</p>
+                    <p><span>6x</span>Multi-size Earplugs</p>
                     <p><span>1x</span>User Manual</p>
-                    <p><span>1x</span>3.5mm 5m Audio Cable</p>
-                    <p><span>1x</span>10m Optical Cable</p>
+                    <p><span>1x</span>USB-C Cable</p>
+                    <p><span>1x</span>Travel Pouch</p>
                 </div>
             </div>
 
             <div className='product-images'>
-                <div className='image1-zx9'></div>
-                <div className='image2-zx9'></div>
-                <div className='image3-zx9'></div>
+                <div className='image1-yx1'></div>
+                <div className='image2-yx1'></div>
+                <div className='image3-yx1'></div>
             </div>
         </div>    
     </div>
@@ -60,22 +66,11 @@ SPEAKER</h1>
             <h3>YOU MAY ALSO LIKE</h3>
             <div className='other-headphones'>
                 <div>
-                    <div className='zx7'>
-
-                    </div>
-                    <h3>ZX7 SPEAKER</h3>
-
-                    <Link to="/zx7">
-                      <button>SEE PRODUCT</button>
-                    </Link>
-                </div>
-            </div>
-            <div className='other-headphones'>
-                <div>
-                    <div className='zx7-xx99-img'>
+                    <div className='yx1-xx99-img'>
 
                     </div>
                     <h3>XX99 MARK I</h3>
+
                     <Link to="/xx99mark1">
                       <button>SEE PRODUCT</button>
                     </Link>
@@ -83,10 +78,21 @@ SPEAKER</h1>
             </div>
             <div className='other-headphones'>
                 <div>
-                    <div className='xx59-img'>
+                    <div className='yx1-xx59-img'>
 
                     </div>
                     <h3>XX59</h3>
+                    <Link to="/xx59">
+                      <button>SEE PRODUCT</button>
+                    </Link>
+                </div>
+            </div>
+            <div className='other-headphones'>
+                <div>
+                    <div className='yx1-zx9-img'>
+
+                    </div>
+                    <h3>ZX9 SPEAKER</h3>
                     <Link to="/zx9">
                       <button>SEE PRODUCT</button>
                     </Link>
@@ -98,7 +104,7 @@ SPEAKER</h1>
               CategoryName={'HEADPHONES'}
               imageSrc={"/resources/assets/shared/mobile/image-xx99-mark-one-headphones.jpg"}
               categoryClass='headphones'
-              topPosition={3980}
+              topPosition={4010}
             />
           </Link>
 
@@ -107,7 +113,7 @@ SPEAKER</h1>
               CategoryName={'SPEAKERS'}
               imageSrc={"/resources/assets/shared/mobile/image-zx9-speaker.jpg"}
               categoryClass='speakers'
-              topPosition={4230}
+              topPosition={4250}
             />
           </Link>
 
@@ -116,7 +122,7 @@ SPEAKER</h1>
               CategoryName={'EARPHONES'}
               imageSrc={"/resources/assets/shared/mobile/image-zx9-earphones.png"}
               categoryClass='earphones'
-              topPosition={4480}
+              topPosition={4520}
             />
           </Link>
     </div>
@@ -124,4 +130,4 @@ SPEAKER</h1>
   )
 }
 
-export default zx9
+export default Yx1

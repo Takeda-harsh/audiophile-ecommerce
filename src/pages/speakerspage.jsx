@@ -22,7 +22,9 @@ const Speakers = () => {
           <h1>ZX9
 speaker</h1>
           <p>Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.</p>
-          <button>SEE PRODUCT</button>
+          <Link to="/zx9">
+                      <button>SEE PRODUCT</button>
+                    </Link>
         </div>
             </div>
 
@@ -34,7 +36,9 @@ speaker</h1>
           <h1>ZX7
 SPEAKER</h1>
           <p>Stream high quality sound wirelessly with minimal loss. The ZX7 bookshelf speaker uses high-end audiophile components that represents the top of the line powered speakers for home or studio use.</p>
-          <button>SEE PRODUCT</button>
+          <Link to="/zx7">
+                      <button>SEE PRODUCT</button>
+                    </Link>
         </div>
       </div>
       

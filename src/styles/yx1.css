@@ -4,8 +4,8 @@
     color: #7d7b7b;
 }
 
-.zx9img {
-    background-image: url('../resources/assets/product-zx9-speaker/mobile/image-product.jpg');
+.yx1img {
+    background-image: url('../resources/assets/product-yx1-earphones/mobile/image-product.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
@@ -148,7 +148,7 @@ justify-content: flex-start;
 }
 
 
-.image1-zx9{
+.image1-yx1{
     width: 327px;
     height: 174px;
     background-position: center;
@@ -156,9 +156,9 @@ justify-content: flex-start;
     background-size: cover;
     border-radius: 8px;
     margin-bottom: 20px;
-    background-image: url('../resources/assets/product-zx9-speaker/mobile/image-gallery-1.jpg');
+    background-image: url('../resources/assets/product-yx1-earphones/mobile/image-gallery-1.jpg');
 }
-.image2-zx9{
+.image2-yx1{
     width: 327px;
     height: 174px;
     background-position: center;
@@ -166,9 +166,9 @@ justify-content: flex-start;
     background-size: cover;
     border-radius: 8px;
     margin-bottom: 20px;
-    background-image: url('../resources/assets/product-zx9-speaker/mobile/image-gallery-2.jpg');
+    background-image: url('../resources/assets/product-yx1-earphones/mobile/image-gallery-2.jpg');
 }
-.image3-zx9{
+.image3-yx1{
     width: 327px;
     height: 368px;
     background-position: center;
@@ -176,7 +176,7 @@ justify-content: flex-start;
     background-size: cover;
     border-radius: 8px;
     margin-bottom: 20px;
-    background-image: url('../resources/assets/product-zx9-speaker/mobile/image-gallery-3.jpg');
+    background-image: url('../resources/assets/product-yx1-earphones/mobile/image-gallery-3.jpg');
 }
 
 .recommendation {
@@ -211,39 +211,39 @@ justify-content: flex-start;
    margin-top: 32px;
 }
 
-.zx7 {
+.yx1-xx99-img {
     width: 327px;
     height: 120px;
     background-color: #F1F1F1;
     margin-top: 40px;
     border-radius: 8px;
-    background-image: url(../resources/assets/shared/mobile/image-zx7-speaker.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 20px;
-}
-.zx7-xx99-img {
-    width: 327px;
-    height: 120px;
-    background-color: #F1F1F1;
-    margin-top: 40px;
-    border-radius: 8px;
-    background-image: url(../resources/assets/shared/tablet/image-xx99-mark-one-headphones.jpg);
+    background-image: url(../resources/assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 20px;
 }
-.xx59-img {
+.yx1-xx59-img {
     width: 327px;
     height: 120px;
     background-color: #F1F1F1;
     margin-top: 40px;
     border-radius: 8px;
-    background-image: url(../resources/assets/shared/mobile/image-xx59-headphones.jpg);
+    background-image: url(../resources/assets/product-xx59-headphones/mobile/image-category-page-preview.jpg);
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 20px;
+}
+.yx1-zx9-img {
+    width: 327px;
+    height: 120px;
+    background-color: #F1F1F1;
+    margin-top: 40px;
+    border-radius: 8px;
+    background-image: url(../resources/assets/product-zx9-speaker/mobile/image-category-page-preview.jpg);
+    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
     
     padding-top: 20px;

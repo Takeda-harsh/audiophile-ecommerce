@@ -3,13 +3,17 @@ import { IoLogoFacebook } from "react-icons/io";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
+
 const Footer = () => {
   return (
     <div className='footer'>
       <div className='bar'></div>
       <div className='logo'></div>
       <div className='links'>
-        <span>HOME</span>
+    
+      <span>HOME</span>
+     
+        
         <span>HEADPHONES</span>
         <span>SPEAKERS</span>
         <span>EARPHONES</span>

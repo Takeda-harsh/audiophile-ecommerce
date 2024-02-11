@@ -1,0 +1,250 @@
+.back {
+    margin-left: 24px;
+    margin-top: 16px;
+    color: #7d7b7b;
+}
+
+.zx7img {
+    background-image: url('../resources/assets/product-zx7-speaker/mobile/image-product.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    width: 327px;
+    height: 352px;
+}
+
+
+.xx99mark-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.x99-model-desc {
+    margin-top: 32px;
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: space-evenly;
+}
+
+.x99-model-desc h4{
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 10px;
+    color: #D87D4A;
+    margin-bottom: 24px;
+    
+}
+
+.x99-model-desc h1{
+    font-size: 28px;
+    text-align: left;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color:black;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.x99-model-desc p{
+    font-size: 15px;
+    text-align: left;
+    line-height: 25px;
+    color: #7d7b7b;
+    margin-bottom: 24px;
+}
+
+.price {
+    width: 327px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+}
+
+.price p {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 31px;
+}
+
+.quantity-cart {
+    display: flex;
+       
+}
+
+.quantity-cart .minus{
+    margin-right: 20px;
+    color: #7d7b7b;
+}
+.quantity-cart .add{
+    margin-left: 20px;
+    color: #7d7b7b;
+       
+}
+.quantity-cart button {
+    width: 160px;
+    height: 48px;
+    background-color: #D87D4A;
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+       
+}
+.qty {
+    width: 120px;
+    height: 48px;
+    background-color: #F1F1F1;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.description {
+    margin-top: 88px;
+    width: 327px;
+    
+}
+.description h3 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.86px;
+    line-height: 36px;
+    margin-bottom: 36px;
+}
+.description p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 36px;
+    color: #7d7b7b;
+}
+
+.box-items span {
+    font-size: 15px;
+    color: #D87D4A;
+    font-weight: 700;
+    margin-right: 24px;
+}
+.box-items p {
+    font-size: 15px;
+    margin-bottom: 8px;
+    
+}
+
+.box-items{
+    display: flex;
+    flex-direction: column;
+}
+.product-images {
+    height: 756px;
+    margin-top: 88px;
+}
+
+
+.image1-zx7{
+    width: 327px;
+    height: 174px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-image: url('../resources/assets/product-zx7-speaker/mobile/image-gallery-1.jpg');
+}
+.image2-zx7{
+    width: 327px;
+    height: 174px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-image: url('../resources/assets/product-zx7-speaker/mobile/image-gallery-2.jpg');
+}
+.image3-zx7{
+    width: 327px;
+    height: 368px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-image: url('../resources/assets/product-zx7-speaker/mobile/image-gallery-3.jpg');
+}
+
+.recommendation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+.recommendation div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.recommendation button{
+    width: 160px;
+    height: 48px;
+    background-color: #D87D4A;
+    color: white;
+    border: none;
+    margin-top: 32px;
+    margin-bottom: 56px;
+}
+
+
+.recommendation h3{
+   font-size: 24px;
+   text-align: center;
+   font-weight: 700;
+   line-height: 36px;
+   letter-spacing: 0.86px;
+   margin-top: 32px;
+}
+
+.zx9 {
+    width: 327px;
+    height: 120px;
+    background-color: #F1F1F1;
+    margin-top: 40px;
+    border-radius: 8px;
+    background-image: url(../resources/assets/product-zx9-speaker/mobile/image-product.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 20px;
+}
+.zx7-xx99-img {
+    width: 327px;
+    height: 120px;
+    background-color: #F1F1F1;
+    margin-top: 40px;
+    border-radius: 8px;
+    background-image: url(../resources/assets/shared/tablet/image-xx99-mark-one-headphones.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 20px;
+}
+.xx59-img {
+    width: 327px;
+    height: 120px;
+    background-color: #F1F1F1;
+    margin-top: 40px;
+    border-radius: 8px;
+    background-image: url(../resources/assets/shared/mobile/image-xx59-headphones.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    padding-top: 20px;
+}

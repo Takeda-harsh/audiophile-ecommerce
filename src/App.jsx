@@ -7,12 +7,18 @@ import NavBar from './components/NavBar';
 import Mission from './components/Mission';
 import Footer from './components/Footer';
 import Home from './pages/home';
+import CartOverlay from './components/CartOverlay';
 import HeadphonesPage from './pages/headphonespage';
+import Checkout from './pages/checkout';
 import SpeakersPage from './pages/speakerspage';
 import EarphonesPage from './pages/earphonespage';
 import XX99Mark from './pages/products/headphones/xx99mark';
 import XX99Mark1 from './pages/products/headphones/xx99mark1';
 import XX59 from './pages/products/headphones/xx59';
+import ZX9 from './pages/products/speakers/zx9';
+import ZX7 from './pages/products/speakers/zx7';
+import YX1 from './pages/products/earphones/yx1';
+
 
 function App() {
   return (
@@ -27,6 +33,10 @@ function App() {
           <Route path="/xx99mark" element={<XX99Mark />} />
           <Route path="/xx99mark1" element={<XX99Mark1 />} />
           <Route path="/xx59" element={<XX59 />} />
+          <Route path="/zx9" element={<ZX9 />} />
+          <Route path="/zx7" element={<ZX7 />} />
+          <Route path="/yx1" element={<YX1 />} />
+          <Route path="/cartoverlay" element={<CartOverlay />} />
         </Routes>
       </Router>
       <Mission />
