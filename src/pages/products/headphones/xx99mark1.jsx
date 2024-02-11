@@ -1,7 +1,7 @@
-import '../../../styles/xx99mark.css';
+import '../../../styles/xx99mark1.css';
 import Category from '../../../components/category';
 import { Link } from 'react-router-dom';
-const xx99mark = () => {
+const xx99mark1 = () => {
   return (
     <>
      <Link to="/headphonespage">
@@ -11,16 +11,16 @@ const xx99mark = () => {
     <div className="xx99mark-details">
         
        <div className='headphonemodels'>
-        <div className='modelimg'></div>
+        <div className='xx99mark1img'></div>
 
         <div className='x99-model-desc'>
           <h4>NEW PRODUCT</h4>
-          <h1>XX99 Mark II Headphones</h1>
-          <p>The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.</p>
+          <h1>XX99 Mark I Headphones</h1>
+          <p>As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.</p>
         </div>
             </div>
         <div className='price'>
-            <p>$ 2,999</p>
+            <p>$ 1,750</p>
             <div className='quantity-cart'>
                 <div className='qty'><span className='minus'>-</span>1 <span className='add'>+</span></div> <button>ADD TO CART</button>
             </div>
@@ -29,9 +29,9 @@ const xx99mark = () => {
         <div className='description'>
             <h3>FEATURES</h3>
             <p>
-            Featuring a genuine leather head strap and premium earcups, these headphones deliver superior comfort for those who like to enjoy endless listening. It includes intuitive controls designed for any situation. Whether you’re taking a business call or just in your own personal space, the auto on/off and pause features ensure that you’ll never miss a beat. <br/> <br/>
+            As the headphones all others are measured against, the XX99 Mark I demonstrates over five decades of audio expertise, redefining the critical listening experience. This pair of closed-back headphones are made of industrial, aerospace-grade materials to emphasize durability at a relatively light weight of 11 oz. <br/> <br/>
 
-            The advanced Active Noise Cancellation with built-in equalizer allow you to experience your audio world on your terms. It lets you enjoy your audio in peace, but quickly interact with your surroundings when you need to. Combined with Bluetooth 5. 0 compliant connectivity and 17 hour battery life, the XX99 Mark II headphones gives you superior sound, cutting-edge technology, and a modern design aesthetic. 
+            From the handcrafted microfiber ear cushions to the robust metal headband with inner damping element, the components work together to deliver comfort and uncompromising sound. Its closed-back design delivers up to 27 dB of passive noise cancellation, reducing resonance by reflecting sound to a dedicated absorber. For connectivity, a specially tuned cable is included with a balanced gold connector. 
             </p>
 
             <div>
@@ -41,14 +41,13 @@ const xx99mark = () => {
                     <p><span>2x</span>Replacement Earcups</p>
                     <p><span>1x</span>User Manual</p>
                     <p><span>1x</span>3.5mm 5m Audio Cable</p>
-                    <p><span>1x</span>Travel Bag</p>
                 </div>
             </div>
 
             <div className='product-images'>
-                <div className='image1'></div>
-                <div className='image2'></div>
-                <div className='image3'></div>
+                <div className='image1-mark1'></div>
+                <div className='image2-mark1'></div>
+                <div className='image3-mark1'></div>
             </div>
         </div>    
     </div>
@@ -58,13 +57,14 @@ const xx99mark = () => {
             <h3>YOU MAY ALSO LIKE</h3>
             <div className='other-headphones'>
                 <div>
-                    <div className='xx99m1'>
+                    <div className='xx99m'>
 
                     </div>
-                    <h3>XX99 MARK I</h3>
-                    <Link to="/xx99mark1">
-          <button>SEE PRODUCT</button>
-          </Link>
+                    <h3>XX99 MARK II</h3>
+
+                    <Link to="/xx99mark">
+                      <button>SEE PRODUCT</button>
+                    </Link>
                 </div>
             </div>
             <div className='other-headphones'>
@@ -74,8 +74,8 @@ const xx99mark = () => {
                     </div>
                     <h3>XX59</h3>
                     <Link to="/xx59">
-          <button>SEE PRODUCT</button>
-          </Link>
+                      <button>SEE PRODUCT</button>
+                    </Link>
                 </div>
             </div>
             <div className='other-headphones'>
@@ -85,8 +85,8 @@ const xx99mark = () => {
                     </div>
                     <h3>ZX9 SPEAKER</h3>
                     <Link to="/zx9">
-          <button>SEE PRODUCT</button>
-          </Link>
+                      <button>SEE PRODUCT</button>
+                    </Link>
                 </div>
             </div>
         </div>
@@ -95,7 +95,7 @@ const xx99mark = () => {
               CategoryName={'HEADPHONES'}
               imageSrc={"/resources/assets/shared/mobile/image-xx99-mark-one-headphones.jpg"}
               categoryClass='headphones'
-              topPosition={4020}
+              topPosition={3980}
             />
           </Link>
 
@@ -104,7 +104,7 @@ const xx99mark = () => {
               CategoryName={'SPEAKERS'}
               imageSrc={"/resources/assets/shared/mobile/image-zx9-speaker.jpg"}
               categoryClass='speakers'
-              topPosition={4280}
+              topPosition={4240}
             />
           </Link>
 
@@ -113,7 +113,7 @@ const xx99mark = () => {
               CategoryName={'EARPHONES'}
               imageSrc={"/resources/assets/shared/mobile/image-zx9-earphones.png"}
               categoryClass='earphones'
-              topPosition={4530}
+              topPosition={4490}
             />
           </Link>
     </div>
@@ -121,4 +121,4 @@ const xx99mark = () => {
   )
 }
 
-export default xx99mark
+export default xx99mark1

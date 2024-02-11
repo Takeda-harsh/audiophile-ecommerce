@@ -11,6 +11,8 @@ import HeadphonesPage from './pages/headphonespage';
 import SpeakersPage from './pages/speakerspage';
 import EarphonesPage from './pages/earphonespage';
 import XX99Mark from './pages/products/headphones/xx99mark';
+import XX99Mark1 from './pages/products/headphones/xx99mark1';
+import XX59 from './pages/products/headphones/xx59';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path="/speakerspage" element={<SpeakersPage />} />
           <Route path="/earphonespage" element={<EarphonesPage />} />
           <Route path="/xx99mark" element={<XX99Mark />} />
+          <Route path="/xx99mark1" element={<XX99Mark1 />} />
+          <Route path="/xx59" element={<XX59 />} />
         </Routes>
       </Router>
       <Mission />
