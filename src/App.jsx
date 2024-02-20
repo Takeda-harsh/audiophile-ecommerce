@@ -37,6 +37,7 @@ function App() {
           <Route path="/zx7" element={<ZX7 />} />
           <Route path="/yx1" element={<YX1 />} />
           <Route path="/cartoverlay" element={<CartOverlay />} />
+          <Route path="/checkout" element={<Checkout />} />
         </Routes>
       </Router>
       <Mission />

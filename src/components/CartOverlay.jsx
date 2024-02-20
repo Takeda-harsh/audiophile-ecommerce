@@ -1,4 +1,5 @@
 import '../styles/cartoverlay.css'
+import { Link } from 'react-router-dom';
 
 const CartOverlay = () => {
   return (
@@ -50,7 +51,10 @@ const CartOverlay = () => {
               <h4>TOTAL</h4>
               <p>$ 5,396</p>
             </div>
+            <Link to= '/checkout'>
             <div className='checkout-btn'>CHECKOUT</div>
+            </Link>
+            
           </div>
         </div>
       </div>
