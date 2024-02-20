@@ -1,0 +1,90 @@
+.checkout-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    
+}
+
+h4 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #d87d4a;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.billing-details {
+    margin-top: 32px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    margin-top: 16px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+label input {
+   height: 50px; 
+   border: 1px solid #cfcfcf;
+   border-radius: 8px;
+   margin-top: 10px;
+}
+
+.radio {
+    width: 280px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid #cfcfcf;
+   border-radius: 8px;
+   
+}
+
+
+#e-money {
+    color: #d87d4a;
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-top: 0;
+}
+#cash-on0delivery {
+    color: #d87d4a;
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-top: 0;
+}
+
+.total {
+    margin-bottom: 15px;
+}
+.total h5{
+    color:#cfcfcf;
+}
+
+
+.g-total {
+    color: #d87d4a;
+}
+
+.continue-btn {
+    width: 279px;
+    margin-top: 32px;
+    height: 48px;
+    background-color: #d87d4a;
+    border: none;
+    color: white;
+}
+
+.continue-btn:hover {
+    cursor: pointer;
+}
