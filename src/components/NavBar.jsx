@@ -15,7 +15,10 @@ const NavBar = () => {
     <div className='nav-div'>
       
         <IoMenu className='nav-icon'/>
+        <Link to={'/home'}>
         <h1>audiophile</h1>
+        </Link>
+        
         <Link to={'/cartoverlay'}>
         <AiOutlineShoppingCart className='nav-icon'/>
         </Link>

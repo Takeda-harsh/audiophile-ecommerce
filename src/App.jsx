@@ -10,6 +10,7 @@ import Home from './pages/home';
 import CartOverlay from './components/CartOverlay';
 import HeadphonesPage from './pages/headphonespage';
 import Checkout from './pages/checkout';
+import OrderSummary from './components/OrderSummary';
 import SpeakersPage from './pages/speakerspage';
 import EarphonesPage from './pages/earphonespage';
 import XX99Mark from './pages/products/headphones/xx99mark';
@@ -38,6 +39,8 @@ function App() {
           <Route path="/yx1" element={<YX1 />} />
           <Route path="/cartoverlay" element={<CartOverlay />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/ordersummary" element={<OrderSummary />} />
         </Routes>
       </Router>
       <Mission />

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../styles/checkout.css'
 // import { Link } from 'react-router-dom';
 const Checkout = () => {
@@ -100,7 +101,11 @@ const Checkout = () => {
         <div className='total'><h5>GRAND TOTAL</h5> <p className='g-total'>$ <span >5446</span></p></div>
        </div>
       </div>
+
+      <Link to= '/ordersummary'>
       <button className="continue-btn">CONTINUE & PAY</button>
+      </Link>
+     
     </div>
   )
 }
