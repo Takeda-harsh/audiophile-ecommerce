@@ -1,14 +1,19 @@
 .yx1-div {
     display: flex;
-    height: 424px;
+    width: 768px;
+    height: 320px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 24px;
 }
 .yx1-div div{
+    width: 768px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
 }
 
 
@@ -48,4 +53,42 @@
     margin-left: 25px;
     margin-top: 32px;
     background-color: #DADADA;
+}
+
+@media screen and (min-width: 767px) {
+    .yx1-div {
+        display: flex;
+        width: 689px;
+        height: 320px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .yx1-div div{
+        width: 689px;
+        height: 320px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .yx1img {
+        width: 339px;
+        height: 320px;
+        background-image: url(../resources/assets/home/tablet/image-earphones-yx1.jpg) !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+        margin-bottom: 24px;
+    }
+
+    .yx1img-txt{ 
+        width: 339px;
+        height: 320px;
+        background-color: #dbd8d8;
+        display: flex;
+        flex-direction: column !important;
+        border-radius: 8px;
+    }
 }

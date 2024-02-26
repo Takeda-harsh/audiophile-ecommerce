@@ -37,3 +37,30 @@
    margin-left: 25px;
    background-color: #DADADA;
 }
+
+@media screen and (min-width: 767px) {
+    .zx7-div {
+        display: flex;
+        height: 689px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0x;
+      
+       
+    }
+    .zx7-div div{
+        width: 689px;
+       height: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-image: url(../resources/assets/home/mobile/image-speaker-zx7.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+        
+    }
+}

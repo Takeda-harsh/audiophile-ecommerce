@@ -12,8 +12,8 @@ const OrderSummary = () => {
         </div>
 
         <div>
-            <h1>THANK YOU FOR YOUR ORDER </h1>
-            <p>You will receive an email confirmation shortly.</p>
+            <h1 className="order-h1">THANK YOU FOR YOUR ORDER </h1>
+            <p className="order-p">You will receive an email confirmation shortly.</p>
         </div>
 
         <div>
@@ -23,7 +23,7 @@ const OrderSummary = () => {
 
                         </div>
                         <hr/>
-                        <p>and 2 other items</p>
+                        <p className="order-count">and 2 other items</p>
                 </div>
                 
                 

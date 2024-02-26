@@ -8,6 +8,7 @@ import Mission from './components/Mission';
 import Footer from './components/Footer';
 import Home from './pages/home';
 import CartOverlay from './components/CartOverlay';
+// import MenuOverlay from './pages/menuoverlay';
 import HeadphonesPage from './pages/headphonespage';
 import Checkout from './pages/checkout';
 import OrderSummary from './components/OrderSummary';
@@ -41,6 +42,7 @@ function App() {
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/home" element={<Home />} />
           <Route path="/ordersummary" element={<OrderSummary />} />
+          {/* <Route path="/menuoverlay" element={<MenuOverlay />} /> */}
         </Routes>
       </Router>
       <Mission />

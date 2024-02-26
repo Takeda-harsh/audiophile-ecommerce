@@ -1,0 +1,17 @@
+@media screen and (min-width: 767px) {
+    .home-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+   
+.categories-container {
+    width: 689px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+}
+}

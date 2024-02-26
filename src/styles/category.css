@@ -59,3 +59,53 @@
     padding-top: 50px;
     margin-bottom: 17px;
 }
+
+@media screen and (min-width: 767px) {
+    .item-category {
+        width: 223px;
+        height: 217;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 90px;
+    }
+
+    .item-category.headphones img {
+        position: absolute;
+        top: 780px;
+        right: 0;
+      bottom: 0;
+      left: 14%;
+      
+    }
+
+    .item-category.speakers img {
+        position: absolute;
+        top: 780px;
+        right: 0;
+      bottom: 0;
+      left: 45%;
+      
+    }
+
+    .item-category.earphones img {
+        position: absolute;
+        top: 780px;
+        right: 0;
+      bottom: 0;
+      left: 73%;
+      
+    }
+
+    .item-category div{
+        width: 223px;
+        height: 200px;
+        background-color: #F1F1F1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        
+    }
+}

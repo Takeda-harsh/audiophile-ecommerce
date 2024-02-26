@@ -53,3 +53,21 @@
   border: none;
   margin-top: 20px;
 }
+
+@media screen and (min-width: 767px) {
+  .hero-div h2 {
+    width: 379px;
+    font-size: 40px;
+  }
+  .hero-div p {
+    width: 379px;
+    font-size: 15px;
+  }
+
+  .hero-div {
+    height: 640px;
+    background-image: url(../resources/assets/home/tablet/image-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

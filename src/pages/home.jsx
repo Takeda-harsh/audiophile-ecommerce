@@ -12,7 +12,7 @@ const Home = () => {
     <>
       <div className="home-container">
         <Hero className="hero" />
-
+        
         <div className="categories-container">
           <Link to="/headphonespage">
             <Category
@@ -39,6 +39,7 @@ const Home = () => {
           </Link>
         </div>
 
+       
         <SpeakerZX9 />
         <SpeakerZX7 />
         <EarphonesYX1 />
